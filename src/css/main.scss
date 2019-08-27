@@ -1,0 +1,13 @@
+@import '_fonts';
+@import '_libs';
+@import '_palette';
+@import '_base';
+@import '_mixin';
+
+//Пользовательские стили
+@import '_menu';
+@import '_education';
+
+
+//Медиа всегда в конце
+@import '_media';

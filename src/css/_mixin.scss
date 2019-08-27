@@ -1,0 +1,19 @@
+//Для h1,h2
+@mixin title($weight, $size: 16px, $color: $primary-text-color) {
+    font-weight: $weight;
+    font-size: $size;
+    color: $color;
+}
+
+//Для ссылок
+@mixin linx ($visit: $secondary-text-color, $hover: $accent-color, $active: $primary-color) {
+    &:visited {
+      color: $visit;
+    }
+    &:hover {
+      color: $hover;   
+    }
+    &:active {
+      color: $active;
+    }
+}
