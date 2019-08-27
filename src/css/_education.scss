@@ -2,6 +2,19 @@ section {
     background-color: $primary-color-light;
     margin-top: 4px;
     .list {
-        padding: 3rem 0;
+        padding: 2rem 0;
+        a {
+            text-decoration: none;
+        }
+        &-items {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+            padding: 1rem;
+            background-color: #fff;
+            ul {
+                list-style: none;
+                @include title(400);
+            }
+        }
+        
     }
 }
