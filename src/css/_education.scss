@@ -3,17 +3,10 @@ section {
     margin-top: 4px;
     .list {
         padding: 2rem 0;
-        a {
-            text-decoration: none;
-        }
         &-items {
-            box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
             padding: 1rem;
             background-color: #fff;
-            ul {
-                list-style: none;
-                @include title(400);
-            }
         }
         
     }
