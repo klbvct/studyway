@@ -1,4 +1,4 @@
- @import 'mixin';
+@import 'mixin';
 
 * {
     box-sizing: border-box;
@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 h1 {
-    @include title(500, 1.5rem, $primary-color);
+    @include title(500, 1.4rem, $primary-color);
 }
 
 header {

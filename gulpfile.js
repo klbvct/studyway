@@ -93,6 +93,18 @@ gulp.task('img-compress', ()=> {
    .pipe(gulp.dest('./build/img/'))
 });
 
+//Таск для отображения шрифтов
+gulp.task('fonts', ()=> {
+   return gulp.src('./src/fonts/**')
+   .pipe(gulp.dest('./build/fonts/'))
+});
+
+//Таск для отображения шрифтов
+gulp.task('libs', ()=> {
+   return gulp.src('./src/libs/**')
+   .pipe(gulp.dest('./build/libs/'))
+});
+
 //Таск для отслеживания изменений в файлах
 gulp.task('watch', () => {
    browserSync.init({
@@ -102,6 +114,10 @@ gulp.task('watch', () => {
    });
    //Следить за добавлением новых изображений
    gulp.watch('./src/img/**', gulp.series('img-compress'))
+   //Следить за добавлением новых шрифтов
+   gulp.watch('./src/fonts/**', gulp.series('fonts'))
+   //Следить за добавлением новых libs
+   gulp.watch('./src/libs/**', gulp.series('libs'))
    //Следить за файлами со стилями с нужным расширением
    gulp.watch('./src/css/**/*.sass', gulp.series('styles'))
    gulp.watch('./src/css/**/*.scss', gulp.series('styles'))
@@ -112,4 +128,4 @@ gulp.task('watch', () => {
 });
 
 //Таск по умолчанию, Запускает del, styles, scripts и watch
-gulp.task('default', gulp.series('del', gulp.parallel('styles', 'scripts', 'img-compress'), 'watch'));
+gulp.task('default', gulp.series('del', gulp.parallel('styles', 'scripts', 'img-compress', 'fonts', 'libs'), 'watch'));
