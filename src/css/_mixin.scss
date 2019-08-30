@@ -6,10 +6,8 @@
 }
 
 //Для ссылок
-@mixin linx ($visit: $secondary-text-color, $hover: $accent-color, $active: $primary-color) {
-    &:visited {
-      color: $visit;
-    }
+@mixin linx ($color: $primary-text-color, $hover: $accent-color, $active: $primary-color) {
+    color: $color;
     &:hover {
       color: $hover;   
     }

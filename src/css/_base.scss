@@ -41,8 +41,24 @@ h1,h2,h3,h4,h5,h6,p {
     margin: 0;
 }
 
+.bold {
+    font-weight: 600;
+}
+
 h1 {
     @include title(500, 1.4rem, $primary-color);
+}
+
+h2 {
+    @include title(600, 1.3rem)
+}
+
+h3 {
+    @include title(600, 1.1rem)
+}
+
+h4 {
+    @include title(600, 1rem)
 }
 
 header {
