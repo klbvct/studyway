@@ -68,12 +68,17 @@
     h2 {
         margin-top: 1rem;
     }
-    p, ul {
-        margin-bottom: .5rem;
-    }
-    ul {
-        li {
-            margin-left: 1rem;
+    article {
+        p, ul {
+            margin-bottom: .5rem;
+        }
+        ul {
+            li {
+                margin-left: 1rem;
+            }
+        }
+        .morelink {
+            color: $primary-color;
         }
     }
 }

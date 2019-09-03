@@ -35,7 +35,9 @@ const styleFiles = [
 const scriptFiles = [
    './src/js/main.js',
    './src/js/lib.js',
-   './src/js/jquery-3.4.1.min.js'
+   './src/js/jquery-3.4.1.min.js',
+   './src/js/jquery.shorten.js'
+   
 ]
 
 //Таск для обработки стилей

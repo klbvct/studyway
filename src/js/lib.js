@@ -27,4 +27,14 @@ $(function() {
     }
     
     var accordion = new Accordion($('.accordion-menu'), false);
+
 })
+
+/*Конпка Читать далее*/
+$('article').shorten({
+    showChars: 400,
+    moreText: 'Читать далее',
+    lessText: 'Свернуть'
+    
+});
+
