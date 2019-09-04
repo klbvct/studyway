@@ -164,8 +164,8 @@ header {
 //Section Aboute
 .about-sidebar {
     display: flex;
-    justify-content: space-between;
-    margin: 2rem 0 4rem 0;
+    justify-content: space-around;
+    margin: 1.3rem 0;
     font-weight: 500;
     @include transition(.3s);
     a {
@@ -174,11 +174,16 @@ header {
 }
 
 .special {
+    padding: 2rem 0 3rem 0;
+    
     &-item {
         position: relative;
         margin-top: 1rem;
         p {
             text-align: justify;
+        }
+        i {
+            color: $accent-color;
         }
     }
     img {
@@ -187,5 +192,27 @@ header {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+}
+
+.title {
+    font-weight: 500;
+    color: $primary-color-dark;
+    font-size: 1.5rem;
+}
+
+.time {
+    background-color: $primary-color-dark;
+    &-clock {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        //margin: 2rem 0;
+        padding: 2rem 0;
+        
+        color: $primary-color-text;
+        p {
+            width: 80%;
+        }
     }
 }

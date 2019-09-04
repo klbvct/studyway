@@ -14,11 +14,36 @@
             }
         }
     }
+    .about-sidebar {
+        display: none;
+    }
+    .special {
+        img {
+            display: none;
+        }
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    .list {
+        &-img {
+            display: none;
+        }
+    }
+    .time {
+        img {
+            display: none;
+        }
+    }
+}
 
+@media only screen and (max-width : 580px) {
+    .list {
+        img {
+            display: none;
+        }
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -30,6 +55,10 @@
             }
         }
     }
+    .button-empty {
+        display: none;
+    }
+    
 }
 
 /* Custom, iPhone Retina */
