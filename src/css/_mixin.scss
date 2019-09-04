@@ -16,3 +16,9 @@
   }
 }
 
+@mixin transition($property) {
+  -webkit-transition: $property all ease;
+  -moz-transition: $property all ease;
+  -o-transition: $property all ease;
+  transition: $property all ease;
+}

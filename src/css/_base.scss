@@ -65,7 +65,7 @@ h4 {
 header {
     padding: 1rem 0;
     //border: 1px solid red;
-    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, .2);
     .top {
         display: flex; 
         justify-content: flex-end;
@@ -110,4 +110,53 @@ header {
     }
 }
 
+//Section Offer
+.offer {
+    padding: 3rem 0 0 0;
+    background-color: $primary-color-light;
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, .2);
+    p {
+        font-size: 1.1rem;
+        margin-top: 2rem;
+        span {
+            color: $primary-color;
+            font-weight: 600;
+            font-size: 1.7rem;
+            line-height: 1.5;
+        }
+    }
+    .photo-button {
+        margin-top: 20%;
+        margin-bottom: 2rem;
+        @include transition(.3s);
+        width: 11rem;
+        height: 4rem;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        border: 0;
+        margin-right: 2rem;
+        cursor: pointer;
+    }
+    .button-full {
+        background-color: $primary-color;
+        color: $primary-color-text;
+        &:hover {
+            background-color: $primary-color-dark;
+        }
+    }
+    .button-empty {
+        border: 1px solid $primary-color;
+        color: $primary-color;
+        background: none;
+        font-weight: 600;
+        &:hover {
+            border: 2px solid $accent-color;
+            color: $accent-color;
+        }
+    }
+    &-img {
+        background-image: url('/build/img/offer-photo.png');
+    }
 
+}
