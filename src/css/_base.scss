@@ -160,3 +160,32 @@ header {
     }
 
 }
+
+//Section Aboute
+.about-sidebar {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0 4rem 0;
+    font-weight: 500;
+    @include transition(.3s);
+    a {
+        @include linx($primary-text-color);
+    }
+}
+
+.special {
+    &-item {
+        position: relative;
+        margin-top: 1rem;
+        p {
+            text-align: justify;
+        }
+    }
+    img {
+        max-width: 85%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
