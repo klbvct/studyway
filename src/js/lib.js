@@ -32,7 +32,7 @@ $(function() {
 
 /*Конпка Читать далее*/
 $('article').shorten({
-    showChars: 400,
+    showChars: 500,
     moreText: 'Читать далее',
     lessText: 'Свернуть'
     

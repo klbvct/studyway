@@ -1,4 +1,4 @@
-//Block list + items of university
+//Section List + items of university
 .list {
     background-color: $primary-color-light;
     margin-top: 4px;
@@ -16,13 +16,14 @@
     &-items:hover {
         color: $primary-color;
         box-shadow: 0 1px 4px 0px rgba(0, 0, 0, .4);
+        h3 {
+            color:  $primary-color; 
+        }
     }
     &-img {
-        width: 100%;
-        height: 100%;
+       
         background-image: url('/build/img/university/thompson-river-university.jpg');
-        background-size: cover;
-        background-color: $primary-color-light;
+        
     }
     &-title {
         padding-left: 10%;
@@ -60,7 +61,7 @@
     }
 }
 
-//Block content + descriptions
+//Section Content + descriptions
 .content {
     padding: 2rem 0;
     background-color: $primary-color-text;
@@ -82,3 +83,58 @@
         }
     }
 }
+
+//Section Offer
+.offer {
+    background-color: $primary-color-light;
+    padding: 3rem 0;
+    &-title {
+        font-size: 1.2rem;
+        margin: 2rem 0;
+        span {
+            font-size: 2rem;
+            color: $primary-color-dark;
+            font-weight: 600;
+            line-height: 1.25;
+        }
+       
+    }
+    &-img {
+        background-image: url('/build/img/offer-photo.png');
+    }
+    .photo-button {
+        //font-size: 1.1rem;
+        margin-top: 20%;
+        width: 12rem;
+        height: 4rem;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .button-full {
+        background-color: $primary-color;
+        border: 0;
+        color: $primary-color-text;
+        margin-right: 2rem;
+        &:hover {
+            background-color: $primary-color-dark;
+        }
+    }
+    .button-empty {
+        background: none;
+        color: $primary-color;
+        border: 1px solid $primary-color;
+        font-weight: 500;
+        &:hover {
+            border: 2px solid $primary-color-dark;
+            color: $primary-color-dark;
+        }
+    }
+}
+
+
