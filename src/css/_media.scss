@@ -22,6 +22,11 @@
             display: none;
         }
     }
+    .consult {
+        img {
+            padding-bottom: 8rem;
+        }
+    }
 }
 
 /* Small Devices, Tablets */
@@ -40,6 +45,11 @@
 
 @media only screen and (max-width : 580px) {
     .list {
+        img {
+            display: none;
+        }
+    }
+    .consult {
         img {
             display: none;
         }

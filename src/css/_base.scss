@@ -118,6 +118,7 @@ header {
     p {
         font-size: 1.1rem;
         margin-top: 2rem;
+        font-weight: 500;
         span {
             color: $primary-color;
             font-weight: 600;
@@ -127,7 +128,7 @@ header {
     }
     .photo-button {
         margin-top: 20%;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
         @include transition(.3s);
         width: 11rem;
         height: 4rem;
@@ -215,4 +216,22 @@ header {
             width: 80%;
         }
     }
+}
+
+//Section Consult
+.consult {
+    padding-top: 3rem;
+    background-image: url('/build/img/background.png');
+    &-item {
+        margin-top: 3rem;
+        img {
+            float: left;
+            max-width: 18%;
+            padding: 0 2rem 12rem 0;
+        }
+        p {
+            text-align: justify;
+        }
+    }
+    
 }
