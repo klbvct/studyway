@@ -235,3 +235,36 @@ header {
     }
     
 }
+
+//Sectiom Price
+.price {
+    padding: 3rem 0;
+    &-item, &-item-1, &-item-2 {
+        margin-top: 2rem;
+        padding: 1rem 2rem;
+        background-color: $primary-color-light;
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+        ul {
+            h3 {
+                text-align: center;
+                margin: 1rem 0;
+            }
+            hr { 
+                border: 0; border-top: 1px solid #ccc;
+            }
+            li {
+                margin-top: 1rem;
+                margin-left: 1rem;
+                line-height: 1.5;
+            }  
+        }
+        &__much {
+            text-align: center;
+            margin: 2rem;
+        }
+        &__button {
+            
+        }
+    }
+}
+
