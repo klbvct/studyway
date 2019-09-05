@@ -37,6 +37,17 @@ a {
     background-color: $primary-color-light;
 }
 
+.button {
+    width: 11rem;
+    height: 4rem;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    @include transition(.3s);
+    cursor: pointer;
+}
+
 h1,h2,h3,h4,h5,h6,p {
     padding: 0;
     margin: 0;
@@ -129,15 +140,7 @@ header {
     .photo-button {
         margin-top: 20%;
         margin-bottom: 3rem;
-        @include transition(.3s);
-        width: 11rem;
-        height: 4rem;
-        -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
-        border-radius: 5px;
-        border: 0;
         margin-right: 2rem;
-        cursor: pointer;
     }
     .button-full {
         background-color: $primary-color;
@@ -239,7 +242,10 @@ header {
 //Sectiom Price
 .price {
     padding: 3rem 0;
-    &-item, &-item-1, &-item-2 {
+    &-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin-top: 2rem;
         padding: 1rem 2rem;
         background-color: $primary-color-light;
@@ -259,11 +265,18 @@ header {
             }  
         }
         &__much {
-            text-align: center;
             margin: 2rem;
+            font-size: 1.2rem;
+            span {
+                font-weight: 600;
+            }
         }
         &__button {
-            
+            background-color: $accent-color;
+            color: $primary-color-light;
+            &:hover {
+                background-color: $accent-color-dark;
+            }
         }
     }
 }
