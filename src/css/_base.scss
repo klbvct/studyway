@@ -281,3 +281,20 @@ header {
     }
 }
 
+.reserve {
+    padding: 3rem 0;
+    background-color: $primary-color-light;
+    font-size: 1.2rem;
+    p {
+        
+        margin: 2.7rem 0;
+        line-height: 1.5;
+    }
+    ul {
+        list-style: none;
+    }
+    &_blue {
+        color: $primary-color-dark;
+        font-weight: 500;
+    }
+}
