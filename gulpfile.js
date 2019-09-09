@@ -29,7 +29,8 @@ const styleFiles = [
    './src/css/_media.scss',
    './src/css/_palette.sass',
    './src/css/_mixin.scss',
-   './src/css/_education.scss'
+   './src/css/_education.scss',
+   './src/css/_university.scss'
 ]
 //Порядок подключения js файлов
 const scriptFiles = [

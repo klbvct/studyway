@@ -1,7 +1,7 @@
 
 /*Кнопка Контакты в header*/
 var menuElem = document.getElementById('sweeties');
-var titleElem = menuElem.querySelector('.title');
+var titleElem = menuElem.querySelector('.header-title');
 
 titleElem.onclick = function() {
     menuElem.classList.toggle('open');

@@ -1,0 +1,86 @@
+@import 'mixin';
+
+//Section Top
+.button-back {
+    border: none;
+    background: none;
+    margin: 1rem 0;
+    color: $primary-color-dark;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+//Фото и название университета
+.university-top {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    &__items {
+        h1 {
+            color: $primary-text-color;
+            font-weight: 700;
+        }
+    }
+    .university-top__item {
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+        i {
+            margin-right: 1rem;
+            color: $primary-color;
+            text-align: center;
+            width: 3rem;
+        }
+    }
+}
+
+//Описание университета
+.university-description {
+    padding: 3rem 0;
+    background-color: $primary-color-light;
+    h2 {
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+    p {
+        margin-bottom: 1rem;
+        text-align: justify;
+    }
+    ul {
+        span {
+            font-weight: 700;
+        }
+        li {
+            margin-left: 1rem;
+        }
+    }
+}
+
+//Программы обучения
+.university-programs {
+    padding: 3rem 0;
+    h2 {
+        padding-bottom: 2rem;
+    }
+    &__item {
+        padding: 3rem 0;
+        li {
+            margin-left: 1rem;
+        }
+    }
+    &__diplom {
+        padding: .7rem 0 .7rem 13%;
+        background-color: $primary-color-dark;
+        color: #ffffff;
+        margin: .2rem 0;
+    }
+}
+
+//Цена учебы в университете
+.university-price {
+    background-color: $primary-color-light;
+    padding: 3rem 0;
+    h2 {
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+}

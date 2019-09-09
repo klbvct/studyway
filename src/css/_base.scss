@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .bold {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 h1 {
@@ -88,7 +88,7 @@ header {
             margin-right: 1rem;
             color: $primary-color;
         }
-        .title {
+        .header-title {
             cursor: pointer;
         }
         ul {
@@ -119,6 +119,7 @@ header {
             }
         }
     }
+    
 }
 
 //Section Offer
@@ -281,6 +282,7 @@ header {
     }
 }
 
+//Section Reverse
 .reserve {
     padding: 3rem 0;
     background-color: $primary-color-light;
