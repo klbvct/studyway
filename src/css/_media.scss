@@ -41,6 +41,18 @@
             display: none;
         }
     }
+    .university-top {
+        img {
+            max-width: 100%;
+        }
+        h1 {
+            margin-top: 2rem;
+        }
+        .university-top__icon {
+            display: none;
+        }
+    }
+    
 }
 
 @media only screen and (max-width : 580px) {
