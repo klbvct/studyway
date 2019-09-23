@@ -4,6 +4,10 @@
     background-color: $primary-color-light;
     margin-top: 4px;
     padding: 2rem 0;
+    a:hover {
+        color: $primary-color;
+        text-decoration: none;
+    }
     h1 {
         padding-bottom: 1rem;
     }
@@ -12,19 +16,16 @@
         padding: 1.5rem;
         background-color: #fff;
         margin-bottom: 1rem;
-        @include transition(0.3s);
-    }
-    &-items:hover {
-        color: $primary-color;
-        box-shadow: 0 1px 4px 0px rgba(0, 0, 0, .4);
-        h3 {
-            color:  $primary-color; 
+        &:hover {
+            color: $primary-color;
+            box-shadow: 0 1px 4px 0px rgba(0, 0, 0, .4);
+            h3 {
+                color:  $primary-color; 
+            }
         }
     }
-    &-img {
-       
-        background-image: url('/build/img/university/thompson-river-university.jpg');
-        
+    img {
+       max-width: 100%;  
     }
     &-title {
         padding-left: 10%;
@@ -38,30 +39,12 @@
             margin-right: 2rem;
         }
         p {
-            margin-bottom: .2rem;
-        }
-    }
-    &-pagination {
-        display: flex;
-        .active {
-            background-color: $primary-color;
-            color: #fff;
-        }
-        &__item {
-            width: 1.8rem;
-            background-color: #fff;
-            margin-right: .5rem;
-            text-align: center;
-            cursor: pointer;
-            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-            @include transition(0.3s);
-            &:hover {
-                background-color: $primary-color;
-                color: #fff;
-            }
+            margin-bottom: .5rem;
         }
     }
 }
+
+
 
 //Section Content + descriptions
 .content {
@@ -72,6 +55,7 @@
         margin-top: 1rem;
     }
     article {
+        margin: 2rem 0;
         p, ul {
             margin-bottom: .5rem;
         }

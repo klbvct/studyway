@@ -122,6 +122,54 @@ header {
     
 }
 
+/*Pagination*/
+.pagination {
+    margin: 1rem 0 0 0;
+    padding: 0;
+    li {
+        list-style-type: none;
+        &:first-child {
+            a, span {
+                border-bottom-left-radius: 0;
+                border-top-left-radius: 0;
+                margin-left: 0;
+            }
+        }
+        &:last-child {
+            a, span {
+                border-bottom-right-radius: 0;
+                border-top-right-radius: 0;
+            }
+        }
+        a, span {
+            background-color: $primary-color-text;
+            border: 0;
+            float: left;
+            line-height: 1.42857;
+            margin-left: -1px;
+            padding: 6px 12px;
+            position: relative;
+            text-decoration: none;
+            margin-right: 5px;
+            box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.2);
+        }
+        a:hover {
+            background:$accent-color;
+            color: $primary-text-color;
+        }
+    }
+    .active {
+        a, a:hover, span, span:hover, a:focus, span:focus {
+            background-color: $primary-color-dark;
+            border-color: $primary-color-dark;
+            color: $primary-color-text;
+            cursor: default;
+            z-index: 2;
+        }
+    }
+}
+
+
 //Section Offer
 .offer {
     padding: 3rem 0 0 0;
@@ -160,9 +208,7 @@ header {
             color: $accent-color;
         }
     }
-    &-img {
-        background-image: url('/build/img/offer-photo.png');
-    }
+    
 
 }
 
@@ -225,7 +271,6 @@ header {
 //Section Consult
 .consult {
     padding-top: 3rem;
-    background-image: url('/build/img/background.png');
     &-item {
         margin-top: 3rem;
         img {
@@ -287,16 +332,46 @@ header {
     padding: 3rem 0;
     background-color: #efffac;
     font-size: 1.2rem;
-    p {
+    &__left {
+        p {
         
-        margin: 2.7rem 0;
-        line-height: 1.5;
-    }
-    ul {
-        list-style: none;
+            margin: 2.7rem 0;
+            line-height: 1.5;
+        }
+        ul {
+            list-style: none;
+        } 
     }
     &_blue {
         color: $primary-color-dark;
         font-weight: 500;
     }
+}
+
+/*Форма заявки*/
+.form4full {
+    font-size: 1rem;
+}
+
+.form4full input[type="submit"]:hover {
+    background-color: #0f7cb3;
+    transition: all .3s ease-in-out;
+}
+
+.control-label {
+    font-weight: 700;
+
+}
+
+.btn-primary {
+    width: 100%;
+    height: 2.8rem;
+    margin-top: 2rem;
+    background-color: $primary-color;
+    border-color: $primary-color;
+    transition: all .3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: $primary-color-dark;
 }
