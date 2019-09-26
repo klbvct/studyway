@@ -1,0 +1,30 @@
+@import 'mixin';
+
+.contact {
+    padding-bottom: 6rem;
+    h3 {
+        padding: 3rem 0;
+        margin: 0 auto;
+    }
+    iframe {
+        padding-bottom: 2rem;
+    }
+    &-map {
+        padding-left: 10%;
+    }
+    &__item {
+        padding-bottom: 1rem;
+        display: flex; 
+        justify-content: flex-start;
+        align-items: center;
+        i {
+            width: 5rem;
+            text-align: center;
+            color: $primary-color;
+        }
+        a:hover {
+            color: $primary-color-dark;
+            text-decoration: underline;
+        }
+    }
+}
