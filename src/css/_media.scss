@@ -57,7 +57,14 @@
             display: none;
         }
     }
-    
+    .blog__item {
+        p {
+            display: none;
+        }
+        h3 {
+            padding: .5rem 0;
+        }
+    }
 }
 
 @media only screen and (max-width : 580px) {
