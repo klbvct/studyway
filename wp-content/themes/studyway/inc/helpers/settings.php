@@ -298,3 +298,22 @@
 			</div>
 		</div>
 	<?php return ob_get_clean(); }
+
+	/**
+	 * Anti-spam: block CF7 submissions that come directly via REST API
+	 * (without a valid HTTP Referer from this site).
+	 */
+	add_filter( 'wpcf7_spam', 'bobcat_cf7_referer_spam_check' );
+	function bobcat_cf7_referer_spam_check( bool $spam ): bool {
+		if ( $spam ) {
+			return $spam;
+		}
+		$referer  = isset( $_SERVER['HTTP_REFERER'] ) ? $_SERVER['HTTP_REFERER'] : '';
+		$site_url = home_url();
+
+		// If referer is empty or doesn't start with our site URL — it's spam
+		if ( empty( $referer ) || strpos( $referer, $site_url ) !== 0 ) {
+			return true; // mark as spam
+		}
+		return false;
+	}
