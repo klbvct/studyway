@@ -4,6 +4,39 @@ wp-admin/
 wp-content/plugins/
 wp-content/themes/twenty*/
 
+# WordPress root files (core)
+index.php
+license.txt
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+
+# Other non-theme files
+.htaccess
+favicon.ico
+robots.txt
+.well-known/
+cgi-bin/
+OLD/
+wp-content/languages/
+wp-content/mu-plugins/
+wp-content/index.php
+wp-content/autoptimize_404_handler.php
+wp-content/backups-dup-pro/
+wp-content/ewww/
+wp-content/themes/index.php
+
 # WordPress sensitive/generated
 wp-config.php
 wp-content/uploads/
