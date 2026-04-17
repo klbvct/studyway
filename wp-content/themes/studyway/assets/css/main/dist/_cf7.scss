@@ -1,0 +1,155 @@
+@import "../abstracts/variables";
+//noinspection CssUnknownTarget
+.wpcf7 {
+	.wpcf7-spinner {
+		position: absolute;
+		left: 0;
+	}
+
+	.ajax-loader {
+		position: absolute;
+		z-index: 5;
+	}
+
+	.wpcf7-response-output {
+		margin: 0 auto !important;
+		background: #fff;
+		color: $body_color;
+		width: 90%;
+		border: none !important;
+		display: block !important;
+		line-height: 2;
+		padding: 0 !important;
+		float: none;
+		border-radius: 5px;
+		font-size: 12px;
+		text-align: center;
+	}
+
+	.wpcf7-form-control-wrap,
+	p {
+		margin: 0 !important;
+		position: relative;
+		display: block;
+		line-height: 1;
+		#mfcf7_zl_multifilecontainer,
+		&:last-of-type,
+		.multilinefile_wr {
+			margin: 0 !important;
+			position: relative;
+		}
+	}
+
+	.multilinefile_wr {
+		label {
+			width: 100%;
+		}
+
+		input.button {
+			border: 1px solid $border_color;
+			background: transparent;
+			width: 100%;
+		}
+
+		p {
+			margin: 0 !important;
+		}
+	}
+
+	.l12 {
+		p {
+			line-height: 1.2;
+		}
+	}
+
+	.l15 {
+		p {
+			line-height: 1.5;
+		}
+	}
+
+	span {
+		&.wpcf7-list-item {
+			display: block;
+			width: 100%;
+			margin: 0;
+
+			&:nth-last-child(n+2) {
+				margin-bottom: 10px;
+			}
+		}
+		&.wpcf7-not-valid-tip {
+			position: relative;
+			font-size: 10px !important;
+			z-index: 1;
+			top: 5px;
+			left: 0;
+			background-color: #fff;
+			background-image: url('../../images/ico_not_valid.png');
+			line-height: 1;
+			background-position: 10px center;
+			background-repeat: no-repeat;
+			margin-top: 0;
+			padding: 10px 10px 10px 40px;
+			border-radius: 5px;
+			border:  1px solid $border_color;
+			width: auto;
+			color: $body_color;
+
+			&:before,
+			&:after {
+				content: '';
+				display: block;
+				position: absolute;
+				width: 0;
+				height: 0;
+				border-style: solid;
+			}
+
+			&:before {
+				left: 10px;
+				top: -10px;
+				border-width: 0 5px 10px 5px;
+				border-color: transparent transparent $body_color transparent;
+			}
+
+			&:after {
+				left: 11px;
+				top: -8px;
+				border-width: 0 4px 8px 4px;
+				border-color: transparent transparent #fff transparent;
+			}
+		}
+	}
+	.wpcf7-not-valid {
+		border: 1px solid red;
+		color: red;
+	}
+
+	.wpcf7-acceptance {
+		.wpcf7-list-item label {
+			position: relative;
+		}
+	}
+
+	.wpcf7-radio {
+		padding: 10px 0;
+
+		span {
+			&.wpcf7-list-item {
+				text-align: center;
+				margin: 5px 10px 5px 0;
+				padding: 10px;
+				width: auto;
+				flex: 0 0 auto;
+				background: $primary_color;
+				display: inline-flex;
+				align-items: center;
+			}
+		}
+
+		label {
+			margin-bottom: 0;
+		}
+	}
+}

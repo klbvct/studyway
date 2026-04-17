@@ -1,0 +1,55 @@
+@import "../abstracts/variables";
+//noinspection CssUnknownTarget
+header{
+	&.header{
+		.lang_wr {
+			justify-content: center;
+			margin-bottom: 0;
+			margin-top: 0;
+			@media(max-width: 991px){
+				padding-top: 40px;
+				padding-bottom: 40px;
+				border-top: 1px solid $border_color;
+				border-bottom: 1px solid $border_color;
+				margin-bottom: 32px;
+				margin-top: auto;
+			}
+			select {
+				border: none;
+				text-transform: uppercase;
+				padding-left: 0;
+				padding-right: 13px;
+				background: transparent url('../../images/down-arrow.svg') 100% center / 8px no-repeat;
+				border-radius: 0;
+				cursor:pointer;
+				color: $secondary_color;
+				font-size: 14px;
+				@media(min-width: 992px){
+					font-size: 16px;
+				}
+			}
+			li{
+				display: block;
+				text-align: left;
+				padding: 0 10px;
+				&:first-child{
+					text-align: right;
+				}
+				a{
+					text-transform: uppercase;
+					text-decoration: none;
+					color: $secondary_color;
+					display: inline-flex;
+					align-items: center;
+					justify-content: center;
+					font-weight: 500;
+					font-size: 20px;
+				}
+				a:hover,
+				&.current-lang a{
+					color:$primary_color;
+				}
+			}
+		}
+	}
+}

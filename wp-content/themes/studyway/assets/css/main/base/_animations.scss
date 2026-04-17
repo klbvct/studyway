@@ -1,0 +1,140 @@
+.blockUI.blockOverlay,
+.acf_map:not(.loaded),
+.wpcf7-form:not(.loaded),
+.wpcf7-form.submitting,
+.slick_wr:not(.slick-initialized),
+.loading {
+	overflow: hidden;
+	position: relative;
+	&:after,
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+	}
+	&:before {
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background-color: rgba(255, 255, 255, .6);
+		z-index: 205;
+	}
+	&:after{
+		z-index: 210;
+		top: calc(50% - 25px);
+		left: calc(50% - 25px);
+		width: 50px;
+		height: 50px;
+		border-radius: 100%;
+		border: 6px solid;
+		border-color: $primary_color transparent $primary_color transparent;
+		animation: loading 1.2s linear infinite;
+	}
+	form {
+		pointer-events: none;
+	}
+}
+.slide-in-left{
+	opacity: 0;
+	&.animated{
+		animation-name: slide-in-left;
+		animation-duration: 1s;
+		animation-timing-function: ease;
+		animation-fill-mode: forwards;
+		@for $i from 2 through 4 {
+			&:nth-child(#{$i}) {
+				animation-delay: .2s * $i;
+			}
+		}
+	}
+}
+
+.slide-in-bottom {
+	opacity: 0;
+	&.animated{
+		animation-name: slide-in-bottom;
+		animation-duration: 1s;
+		animation-timing-function: ease;
+		animation-fill-mode: forwards;
+		@for $i from 2 through 4 {
+			&:nth-child(#{$i}) {
+				animation-delay: .2s * $i;
+			}
+		}
+	}
+}
+
+.fade-in{
+	opacity: 0;
+	&.animated{
+		animation-name: fade-in;
+		animation-duration: 1s;
+		animation-timing-function: ease;
+		animation-fill-mode: forwards;
+		@for $i from 2 through 4 {
+			&:nth-child(#{$i}) {
+				animation-delay: .2s * $i;
+			}
+		}
+	}
+}
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes slide-in-left {
+	0% {
+		opacity: 0;
+		transform: translateX(-20%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes slide-in-bottom {
+	0% {
+		opacity: 0;
+		transform: translateY(20%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes pulse {
+	0% {box-shadow: 0 0 5px 4px rgba(220,120,93, 0), 0 0 0 0 rgba(0,0,0,0), 0 0 0 0 rgba(220,120,93, 0);}
+	10% {box-shadow: 0 0 5px 4px $primary_color, 0 0 6px 6px rgba(0,0,0,0), 0 0 6px 7px $primary_color;}
+	100% {box-shadow: 0 0 5px 4px rgba(220,120,93, 0), 0 0 0 20px rgba(0,0,0,0), 0 0 0 20px rgba(220,120,93, 0);}
+}
+
+@keyframes loading {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes svg_scale_color_change {
+	0% {
+		fill: $primary_color;
+		transform: scale(1);
+	}
+	50% {
+		fill: $red;
+		transform: scale(1.2);
+	}
+	100% {
+		fill: $primary_color;
+		transform: scale(1);
+	}
+}

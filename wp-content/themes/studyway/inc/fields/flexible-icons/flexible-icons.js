@@ -1,0 +1,23 @@
+let iconsPrefix = 'icons';
+function extendedSettings() {
+	return {
+		slidesToShow    : jQuery('.'+iconsPrefix+'_slider_wr').data('cols'),
+		responsive      : [
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow    : 2,
+				}
+			},
+			{
+				breakpoint: 575,
+				settings: {
+					slidesToShow    : 1,
+					centerMode      : true,
+					centerPadding   :'30px',
+				}
+			}
+		]
+	};
+}
+flexible_slick_slider(iconsPrefix, extendedSettings());

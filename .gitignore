@@ -1,0 +1,31 @@
+# WordPress core (не потрібно зберігати в Git)
+wp-includes/
+wp-admin/
+wp-content/plugins/
+wp-content/themes/twenty*/
+
+# WordPress sensitive/generated
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/aiowps_backups/
+
+# Statistics/logs
+webstat/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Claude Code
+CLAUDE.md
+.claude/

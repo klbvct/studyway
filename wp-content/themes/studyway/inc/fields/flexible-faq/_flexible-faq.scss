@@ -1,0 +1,25 @@
+@import "../../../assets/css/main/abstracts/variables";
+.faq_item_wr {
+	&:nth-last-child(n+2) {
+		margin-bottom: 8px;
+	}
+	.faq_item{
+		border-radius: 24px;
+		border: 1px solid $border_color;
+		&:hover{
+			border: 1px solid $primary_color;
+		}
+		.faq_question{
+			padding: 20px 24px;
+			@media(min-width: 992px) {
+				padding: 24px 32px;
+			}
+		}
+		.faq_answer{
+			padding: 0 24px 20px;
+			@media(min-width: 992px) {
+				padding: 0 32px 24px;
+			}
+		}
+	}
+}

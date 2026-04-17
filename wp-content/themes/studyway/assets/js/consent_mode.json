@@ -1,0 +1,56 @@
+{
+  "ru": { 
+    "cookie_banner": {
+      "title": "Мы используем файлы cookie 🍪",
+      "description": "Мы используем файлы cookie и другие технологии отслеживания для улучшения вашего просмотра на нашем веб-сайте, чтобы показывать вам персонализированный контент и таргетированную рекламу, анализировать трафик нашего веб-сайта и понимать, откуда приходят наши посетители.",
+      "log_info": "Ваше согласие зарегистрировано. ID: %id%, Дата: %date%",
+      "categories": {
+        "necessary": { "heading": "Необходимые", "info": "Необходимые файлы cookie помогают сделать веб-сайт пригодным к использованию." },
+        "analytics": { "heading": "Аналитика", "info": "Помогает понять, как посетители взаимодействуют с веб-сайтом." },
+        "marketing": { "heading": "Маркетинг", "info": "Используется для отслеживания посетителей на веб-сайтах с целью показа релевантной рекламы." },
+        "personalization": { "heading": "Персонализация", "info": "Разрешает показывать персонализированный контент и рекомендации на основе ваших предпочтений." }
+      },
+      "buttons": {
+        "save_preferences": "Сохранить настройки",
+        "reject_all": "Отклонить все",
+        "accept_all": "Принять все"
+      }
+    }
+  },
+  "uk": { 
+    "cookie_banner": {
+      "title": "Ми використовуємо файли cookie 🍪",
+      "description": "Ми використовуємо файли cookie та інші технології відстеження для покращення вашого перегляду на нашому веб-сайті, щоб показувати вам персоналізований контент і таргетовану рекламу, аналізувати трафік нашого веб-сайту та розуміти, звідки приходять наші відвідувачі.",
+      "log_info": "Ваша згода зареєстрована. ID: %id%, Дата: %date%",
+      "categories": {
+        "necessary": { "heading": "Необхідні", "info": "Необхідні файли cookie допомагають зробити веб-сайт придатним для використання." },
+        "analytics": { "heading": "Аналітика", "info": "Допомагає зрозуміти, як відвідувачі взаємодіють із веб-сайтом." },
+        "marketing": { "heading": "Маркетинг", "info": "Використовуються для відстеження відвідувачів на веб-сайтах з метою показу релевантної реклами." },
+        "personalization": { "heading": "Персоналізація", "info": "Дозволяє показувати персоналізований контент і рекомендації на основі ваших уподобань." }
+      },
+      "buttons": {
+        "save_preferences": "Зберегти налаштування",
+        "reject_all": "Відхилити все",
+        "accept_all": "Прийняти все"
+      }
+    }
+  },
+  "en": { 
+    "cookie_banner": {
+      "title": "We Use Cookies 🍪",
+      "description": "We use cookies and other tracking technologies to enhance your browsing experience on our website, to show you personalized content and targeted ads, to analyze our website traffic, and to understand where our visitors are coming from.",
+      "log_info": "Your consent is logged. ID: %id%, Date: %date%",
+      "categories": {
+        "necessary": { "heading": "Necessary", "info": "Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website." },
+        "analytics": { "heading": "Analytics", "info": "Helps us understand how visitors interact with the website." },
+        "marketing": { "heading": "Marketing", "info": "Used to track visitors across websites with the intention of displaying relevant ads." },
+        "personalization": { "heading": "Personalization", "info": "Allows us to display personalized content and recommendations based on your preferences." }
+      },
+      "buttons": {
+        "save_preferences": "Save Preferences",
+        "reject_all": "Reject All",
+        "accept_all": "Accept All"
+      }
+    }
+  }
+}

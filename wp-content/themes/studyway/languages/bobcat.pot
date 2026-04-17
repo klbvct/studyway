@@ -1,0 +1,635 @@
+# Copyright (C) 2022 Oleksii Abrosimov
+# This file is distributed under the same license as the bobcat + woo package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bobcat + woo 4\n"
+"Report-Msgid-Bugs-To: https://wordpress."
+"org/support/theme/catalog_to_translate\n"
+"POT-Creation-Date: 2023-02-27 09:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-02-27 09:54+0000\n"
+"Last-Translator: OLEKSII ABROSIMOV <referatyk.org.ua@gmail.com>\n"
+"Language-Team: ENGLISH <referatyk.org.ua@gmail.com>\n"
+"\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:9
+msgid "Page does not exist"
+msgstr ""
+
+#: 404.php:12
+msgid "return home"
+msgstr ""
+
+#: 404.php:14
+msgid "Homepage"
+msgstr ""
+
+#: archive.php:46 functions.php:1220 index.php:56
+msgid "Loading"
+msgstr ""
+
+#: archive.php:47 archive.php:53 functions.php:1221 index.php:57 index.php:63
+msgid "Load more"
+msgstr ""
+
+#: comments.php:12 loop-post.php:50
+msgid "Comments"
+msgstr ""
+
+#: comments.php:16
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:17
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:18
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:38
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:56 comments.php:57
+msgid "Leave comment"
+msgstr ""
+
+#: comments.php:59
+msgid "Your email will not be published. Required fields are marked with *"
+msgstr ""
+
+#: comments.php:62 comments.php:63
+msgid "Comment"
+msgstr ""
+
+#: comments.php:67 comments.php:68
+msgid "Name *"
+msgstr ""
+
+#: content-product_cat.php:56
+msgid "Products"
+msgstr ""
+
+#: content-single-product.php:244 functions.php:720
+msgid "Add to cart"
+msgstr ""
+
+#: content-single-product.php:251
+msgid "Sku"
+msgstr ""
+
+#: content-single-product.php:280 functions.php:882
+msgid "Not in stock"
+msgstr ""
+
+#: content-single-product.php:282 functions.php:884
+msgid "In stock"
+msgstr ""
+
+#: content-single-product.php:284
+msgid "backorder"
+msgstr ""
+
+#: content-single-product.php:286
+msgid "Availability"
+msgstr ""
+
+#: content-single-product.php:323
+msgid "Add to wishlist"
+msgstr ""
+
+#: content-single-product.php:335
+msgid "Compare"
+msgstr ""
+
+#: content-single-product.php:344
+msgid "Category"
+msgstr ""
+
+#: content-single-product.php:360
+msgid "Tags"
+msgstr ""
+
+#: footer.php:16 page-cont.php:67
+msgid "Socials"
+msgstr ""
+
+#: footer.php:25 page-cont.php:79
+msgid "Direct"
+msgstr ""
+
+#: footer.php:37 page-cont.php:17
+msgid "Contacts"
+msgstr ""
+
+#: footer.php:80 page-cont.php:59
+msgid "Open hours"
+msgstr ""
+
+#: footer.php:96
+msgid "All rights reserved"
+msgstr ""
+
+#: footer.php:98
+msgid "Developed by"
+msgstr ""
+
+#: footer.php:117
+msgid "Thank you"
+msgstr ""
+
+#: footer.php:120
+msgid "We will contact you soon"
+msgstr ""
+
+#: footer.php:148
+msgid "Contact us"
+msgstr ""
+
+#: footer.php:153 footer.php:154 footer.php:163
+msgid "Callback"
+msgstr ""
+
+#: functions.php:449
+msgid "Previous article"
+msgstr ""
+
+#: functions.php:454
+msgid "Next article"
+msgstr ""
+
+#: functions.php:719
+msgid "Add to basket"
+msgstr ""
+
+#: functions.php:750
+msgid "You have not viewed any product yet!"
+msgstr ""
+
+#: functions.php:769
+msgid "Recently viewed"
+msgstr ""
+
+#: functions.php:828
+msgid "Similar products"
+msgstr ""
+
+#: functions.php:886
+msgid "Backorder"
+msgstr ""
+
+#: functions.php:890
+msgid "New"
+msgstr ""
+
+#: functions.php:894
+msgid "Hot"
+msgstr ""
+
+#: functions.php:939 functions.php:941
+msgid "from"
+msgstr ""
+
+#: functions.php:939
+msgid "<del>%1$s</del><ins>%2$s</ins>"
+msgstr ""
+
+#: functions.php:941
+msgid " %1$s"
+msgstr ""
+
+#: functions.php:957
+msgid "Delivery"
+msgstr ""
+
+#: functions.php:1012 functions.php:1023
+msgid "Buy 1 click"
+msgstr ""
+
+#: functions.php:1047
+msgid "Empty cart"
+msgstr ""
+
+#: functions.php:1049
+msgid "Continue shopping"
+msgstr ""
+
+#: functions.php:1160 functions.php:1164 functions.php:1168
+msgid "Choose options"
+msgstr ""
+
+#: functions.php:1186 functions.php:1203
+msgid "Filter"
+msgstr ""
+
+#: functions.php:1319
+msgid "Address"
+msgstr ""
+
+#: functions.php:1390 functions.php:1413 functions.php:1432 functions.php:1491
+#: header.php:197
+msgid "Log in"
+msgstr ""
+
+#: functions.php:1393 functions.php:1452
+msgid "Register"
+msgstr ""
+
+#: functions.php:1399 functions.php:1443 functions.php:1472
+msgid "Password"
+msgstr ""
+
+#: functions.php:1405 functions.php:1482
+msgid "Remember me"
+msgstr ""
+
+#: functions.php:1408
+msgid "Forgot password?"
+msgstr ""
+
+#: functions.php:1417
+msgid "Log in via social network"
+msgstr ""
+
+#: functions.php:1429
+msgid "Registration"
+msgstr ""
+
+#: functions.php:1437
+msgid "Username"
+msgstr ""
+
+#: functions.php:1445
+msgid "Password will be sent to email"
+msgstr ""
+
+#: functions.php:1468
+msgid "Username or email address"
+msgstr ""
+
+#: functions.php:1486
+msgid "Lost your password?"
+msgstr ""
+
+#: header.php:192 thankyou.php:32
+msgid "My account"
+msgstr ""
+
+#: header.php:204
+msgid "My wishlist"
+msgstr ""
+
+#: header.php:212
+msgid "Products compare"
+msgstr ""
+
+#: header.php:236 review-order.php:161 review-order.php:162 thankyou.php:148
+#: view-order.php:111
+msgid "Total"
+msgstr ""
+
+#: header.php:241
+msgid "Cart"
+msgstr ""
+
+#: header.php:242
+msgid "Checkout"
+msgstr ""
+
+#: header.php:257 header.php:258 search.php:14 search.php:15 search.php:16
+msgid "Search"
+msgstr ""
+
+#: loop-product.php:82
+msgid "Reviews"
+msgstr ""
+
+#: orders.php:45 thankyou.php:56 thankyou.php:77 view-order.php:29
+msgid "Order"
+msgstr ""
+
+#: orders.php:46
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: orders.php:51 view-order.php:37
+msgid "Date"
+msgstr ""
+
+#: orders.php:60
+msgid "Order status"
+msgstr ""
+
+#: orders.php:68
+msgid "Paid"
+msgstr ""
+
+#: orders.php:102
+msgid "Previous"
+msgstr ""
+
+#: orders.php:106
+msgid "Next"
+msgstr ""
+
+#: orders.php:114
+msgid "Browse products"
+msgstr ""
+
+#: orders.php:116
+msgid "No order has been made yet."
+msgstr ""
+
+#: page-account.php:34
+msgid "Passwords do not match. Password has not been changed!."
+msgstr ""
+
+#: page-account.php:43
+msgid "Email, which you entered, is not correct. Please try again."
+msgstr ""
+
+#: page-account.php:45
+msgid "Email, which you entered, is already in use. Please try another one."
+msgstr ""
+
+#: page-account.php:212
+msgid "First name"
+msgstr ""
+
+#: page-account.php:216
+msgid "Last name"
+msgstr ""
+
+#: page-account.php:220
+msgid "E-mail *"
+msgstr ""
+
+#: page-account.php:224
+msgid "Password *"
+msgstr ""
+
+#: page-account.php:228
+msgid "Repeat password *"
+msgstr ""
+
+#: page-account.php:236
+msgid "Update"
+msgstr ""
+
+#: page-cont.php:90
+msgid "Feedback"
+msgstr ""
+
+#: payment.php:26
+msgid "Payment methods"
+msgstr ""
+
+#: payment.php:36
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: payment.php:36
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#. translators: $1 and $2 opening and closing emphasis tags respectively
+#: payment.php:45
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: payment.php:47
+msgid "Update totals"
+msgstr ""
+
+#. translators: %s: Quantity.
+#: quantity-input.php:28
+msgid "%s quantity"
+msgstr ""
+
+#: quantity-input.php:28 review-order.php:78
+msgid "Quantity"
+msgstr ""
+
+#: quantity-input.php:44
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: rating.php:49 rating.php:61
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: review-order.php:40
+msgid "Remove this item"
+msgstr ""
+
+#: review-order.php:61
+msgid "Product"
+msgstr ""
+
+#: review-order.php:100 review-order.php:115 review-order.php:116
+#: view-order.php:96
+msgid "Subtotal"
+msgstr ""
+
+#: search.php:5 woocommerce.php:37
+msgid "Search results"
+msgstr ""
+
+#: search.php:6 woocommerce.php:40
+msgid "for"
+msgstr ""
+
+#: search.php:6 woocommerce.php:40
+msgid "found"
+msgstr ""
+
+#: search.php:54
+msgid "Nothing found"
+msgstr ""
+
+#: thankyou.php:27
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction. Please attempt your purchase "
+"again."
+msgstr ""
+
+#: thankyou.php:30
+msgid "Pay"
+msgstr ""
+
+#: thankyou.php:39
+msgid "Your order number"
+msgstr ""
+
+#: thankyou.php:44
+msgid "You have free delivery"
+msgstr ""
+
+#: thankyou.php:48
+msgid "Shipping method"
+msgstr ""
+
+#: thankyou.php:63
+msgid "Payment"
+msgstr ""
+
+#: thankyou.php:67
+msgid "Payment method"
+msgstr ""
+
+#: thankyou.php:125 thankyou.php:179
+msgid "qty"
+msgstr ""
+
+#: thankyou.php:163 view-order.php:126
+msgid "Note:"
+msgstr ""
+
+#: thankyou.php:182
+msgid "Print"
+msgstr ""
+
+#: thankyou.php:193
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: wishlist-view.php:86
+msgid "Remove this product"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "catalog + woo"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://freelancehunt.com/freelancer/leshaabr2.html?r=5XEY"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Oleksiy Abrosimov"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Brands"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Conference new"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "FAQ"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Wishlist"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Read more"
+msgstr ""
+
+msgid "Edit profile"
+msgstr ""
+
+msgid "Personal information"
+msgstr ""
+
+msgid "My orders"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Current password"
+msgstr ""
+
+msgid "Price"
+msgstr ""
+
+msgid "Price ascending"
+msgstr ""
+
+msgid "Price descending"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Order again"
+msgstr ""
+
+msgid "Orders history"
+msgstr ""
+
+msgid "Shipping"
+msgstr ""
+
+msgid "Free shipping"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Color"
+msgstr ""
+
+msgid "Characteristics"
+msgstr ""
+
+msgid "Weight"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Button"
+msgstr ""
+
+msgid "Messenger"
+msgstr ""
+
+msgid "Social networks"
+msgstr ""
+
+msgid "Agree"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Related articles"
+msgstr ""
+
+msgid "Share"
+msgstr ""

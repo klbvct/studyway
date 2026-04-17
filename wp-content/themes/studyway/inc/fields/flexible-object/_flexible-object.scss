@@ -1,0 +1,31 @@
+@import "../../../assets/css/main/abstracts/variables";
+.section_object_wr{
+	.object_slider_wr {
+		&:not(.slick-initialized){
+			.loop_post_item_wr {
+				max-width: 293px;
+			}
+		}
+		.loop_post_item_wr {
+			padding-bottom: 40px;
+			.inner_wr {
+				padding: 40px;
+				border-radius: 24px;
+				border: 1px solid $border_color;
+				background: #FFF;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				box-shadow: 0 16px 29px -8px rgba(225,231,242,.5);
+				transition: all ease .3s;
+				&:hover{
+					border: 1px solid $primary_color;
+					color: $primary_color;
+				}
+				@media(min-width: 992px) {
+					padding: 48px;
+				}
+			}
+		}
+	}
+}

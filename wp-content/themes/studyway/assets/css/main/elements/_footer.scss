@@ -1,0 +1,68 @@
+@import "../abstracts/variables";
+//noinspection CssUnknownTarget
+footer {
+	&.colophon {
+		background-color: #1A1A1A;
+		.ft_wr {
+			width: calc(100vw - 30px);
+			margin: auto;
+			background: #2F2F2F;
+			border-radius: 40px;
+			padding: 50px 25px;
+			@media(min-width: 992px){
+				padding: 33px 41px;
+			}
+			@media(min-width: 1290px){
+				width: 1260px;
+				border-radius: 56px;
+			}
+			.ft_widget_wr {
+				ul {
+					li {
+						&:nth-last-child(n + 2) {
+							margin-bottom: 20px;
+						}
+						.sub-menu {
+							margin-top: 20px;
+						}
+					}
+				}
+			}
+			a {
+				color: $gray;
+				font-weight: 400;
+				&:hover {
+					color: #fff;
+				}
+				@media(min-width: 992px) {
+					font-weight: 500;
+				}
+			}
+			.site_info_wr {
+				padding-top: 27px;
+				margin-top: 12px;
+				color: $gray;
+				&:before {
+					content: '';
+					position: absolute;
+					display: block;
+					height: 1px;
+					top: 0;
+					left: 15px;
+					right: 15px;
+					background: rgba(255, 255, 255, 0.08);
+				}
+				.ft_nav{
+					@media(min-width: 992px){
+						display: flex;
+						justify-content: flex-end;
+						width: 100%;
+						li{
+							width: auto;
+						}
+					}
+				}
+			}
+		}
+	}
+}

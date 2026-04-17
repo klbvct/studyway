@@ -1,0 +1,36 @@
+@import "../../../assets/css/main/abstracts/variables";
+.section_spec_wr{
+	.nice_item_wr {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		@media(min-width: 992px) {
+			max-width: 860px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.nice_item {
+			border-radius: 16px;
+			border: 1px solid $border_color;
+			background: #FAFAFA;
+			height: 66px;
+			padding: 0 24px;
+			display: inline-flex;
+			align-items: center;
+			margin: 5px;
+			transition: all ease .3s;
+			&:hover{
+				border: 1px solid $primary_color;
+				color: #000;
+			}
+			@media(min-width: 992px) {
+				height: 80px;
+				padding: 0 40px;
+			}
+			&:last-child{
+				background: rgba(11, 170, 46, 0.04);
+				border: 1px solid rgba(11, 170, 46, 0.32);
+			}
+		}
+	}
+}
